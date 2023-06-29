@@ -1,0 +1,12 @@
+.imageFile{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../image/book1.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:70%;
+    border:1px solid;
+
+}

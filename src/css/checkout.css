@@ -1,0 +1,140 @@
+.container-checkout{
+    display:flex;
+    justify-content:center;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.inner-container-checkout{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+    max-width: 1500px;
+    border:2px solid;
+    background-color: rgb(231, 230, 230);
+}
+.customer-info-payment-container{
+    display: flex;
+    width:100%;
+}
+.infoContainer{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border:1px solid black;
+    width:50%;
+}
+.billing-shipping-info-header{
+    border:1px solid black;
+    border-right: 1px solid white;
+    color:white;
+    background-color: rgb(54, 48, 48);
+    font-size: 11px;
+    padding: 5px 0px 5px 5px;
+    font-weight: 200;
+}
+.conditions-of-use{
+    display:flex;
+    font-size: 11px;
+    /* border:1px solid; */
+    padding: 7px 0px 7px 0px;
+}
+.customer-address-container{
+    /* margin-left: 15px; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid; */
+    width: 100%;
+}
+.inner-customer-address-container{
+    width:90%;
+    /* border:1px solid; */
+}
+.address-row-container{
+    display:flex;
+    justify-content: start;
+    /* border:1px solid; */
+    width:100%;
+}
+.name-input{
+    width:50%;
+    font-size: 11px;
+    padding:7px;
+    /* border:1px solid black; */
+    margin-top: 5px;
+}
+.email-input{
+    width:96%;
+    margin-top: 5px;
+    /* border:white; */
+    padding:7px;
+}
+.paymentInfoContainer{
+    position:relative;
+    display:flex;
+    flex-direction: column;
+    border:1px solid black;
+    border-left: none;
+    border:'none';
+    width:50%;
+}
+.paymentInfoInnerContainer{
+    /* position:absolute; */
+    top:0px;
+    left:0px;
+    display:flex;
+    flex-direction: column;
+    border-bottom: none;
+    width:100%;
+    height:100%;
+}
+.payment-info-header{
+    border:1px solid black;
+    border-left: none;
+    color:white;
+    background-color: rgb(54, 48, 48);
+    font-size: 11px;
+    padding: 5px 0px 5px 5px;
+    font-weight: 200;
+}
+.credit-card-container{
+    /* margin-left: 15px; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border:1px solid; */
+    width: 100%;
+    background-color: rgb(231, 230, 230);
+}
+.inner-credit-card-container{
+    width:90%;
+    /* border:1px solid; */
+}
+.inner-paypal-container{
+    width:90%;
+    /* border:1px solid; */
+}
+.main-checkout-button-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width:100%;
+    height:70px;
+    min-height: 70px;
+}
+.checkout-button-container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width:80%;
+    /* border:1px solid; */
+}
+.use-me-to-get-colors{
+    background-color: rgb(99, 108, 186);
+}

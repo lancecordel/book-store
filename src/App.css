@@ -1,0 +1,24 @@
+/* Styles for screens smaller than 600px */
+@media screen and (max-width: 680px) {
+    /* CSS rules for smaller screens */
+    body {
+      background-color: lightblue;
+    }
+  
+    .my-div {
+      font-size: 16px;
+    }
+  }
+  
+  /* Styles for screens larger than 600px */
+  @media screen and (min-width: 601px) {
+    /* CSS rules for larger screens */
+    body {
+      background-color: lightgreen;
+    }
+  
+    .my-div {
+      font-size: 20px;
+    }
+  }
+  

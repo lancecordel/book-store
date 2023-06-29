@@ -1,0 +1,29 @@
+.container {
+    display:flex;
+    justify-content: center;
+    width:100%;
+    height:6%;
+}
+.textContainer {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:50%;
+    height:100%;
+}
+.bottomRow {
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-size: 12px;
+}
+.categoryDescription {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    text-align: center;
+    color: rgb(21, 91, 21);
+  }
+  
